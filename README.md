@@ -7,6 +7,22 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Installation
+
+1. Download the latest release
+   - `git clone https://github.com/tauseefmd13/laravel-stripe.git`
+2. Within the new directory run the following
+   1. `composer install`
+   2. `cp .env.example .env`
+   3. `php artisan key:generate`
+   4. `php artisan storage:link`
+   5. `php artisan migrate`
+
+During the installation process an admin account is created, this account has all permissions by default and any new ones as they are created.
+
+email: `admin@example.com`<br>
+password: `password`
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
